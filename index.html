@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/MERN_task2/style/style.css">
+  <title>sampleForm</title>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+</head>
+<body> 
+  
+
+<div class="container">
+  <form action="" method="post">
+
+    <h2>kindly fill this form </h2>
+    <div class="content">
+      <div class="input-box">
+        <label for="firstname"> first name :</label>
+        <input type="text" name="firstname" id="firstname" placeholder="firstname" required>
+      </div>
+
+      <div class="input-box">
+        <label for="lastname"> last name :</label>
+        <input type="text" name="lastname" id="lastname" placeholder="lastname">
+      </div>
+
+      <div class="input-box">
+        <label for="email">email :</label>
+        <input type="text" name="email" id="email" placeholder="email" required>
+      </div>
+
+      <div class="input-box">
+        <label for="phone">phone :</label>
+        <input type="number" name="phone" id="phone" placeholder="number">
+      </div>
+
+      <div class="input-box">
+        <label for="address"> address :</label>
+        <input type="text" name="address" id="address" placeholder="address">
+      </div>
+
+      
+      <div class="input-box">
+        <label for="birthday">birthday :</label>
+        <input type="date" name="birthday" id="birthday">
+      </div>
+    </div>
+
+    <div class="content-item2">
+
+      <div class="employment">
+        <h3 class="heading"> Choose your employment status </h3>
+        <input type="radio" name="employment" id="student" value="student"> 
+        <label for="student">student</label>
+    
+        <input type="radio" name="employment" id="fresh graduated" value="fresh graduated"> 
+        <label for="fresh graduated">fresh graduated</label>
+    
+        <input type="radio" name="employment" id="jenior" value="jenior"> 
+        <label for="jenior">jenior</label>
+    
+        <input type="radio" name="employment" id="senior" value="senior"> 
+        <label for="senior">senior</label>
+    
+      </div>
+
+      
+  
+      <div class="hobby">
+
+        <h3 class="heading">check for your hobby</h3>
+          <p>you may choose more than one</p>
+    
+        <input type="checkbox" name="reading" id="reading" value="Reading">
+        <label for="reading">Reading</label>
+    
+        <input type="checkbox" name="writing" id="writing" value="Writing">
+        <label for="writing">Writing</label>
+    
+        <input type="checkbox" name="drawing" id="drawing" value="Drawing">
+        <label for="drawing">Drawing</label>
+    
+        <input type="checkbox" name="cooking" id="cooking" value="Cooking">
+        <label for="cooking">Cooking</label>
+    
+        <input type="checkbox" name="traveling" id="traveling" value="Traveling">
+        <label for="traveling">Traveling</label>
+      </div>
+
+      
+<div class="age">
+  <h3 class="heading">choose your age </h3>
+  <p>choose the range of your age </p>
+  <label for="AGE">AGE:</label>
+  <select name="AGE" id="AGE">
+    <option value="20-30">20-30</option>
+    <option value="30-40">30-40</option>
+    <option value="40-50">40-50</option>
+    <option value="50-60">50-60</option>
+    <option value="60+">60+</option>
+  </select>
+</div>
+    </div>
+
+
+
+<div class="input-box2">
+  <h3 class="heading"> upload your cv in pdf file </h3>
+  <label for="file"> CV form : </label>
+  <input type="file" name="file" id="file" required>
+</div>
+
+<div class="input-box2">
+  <h3 class="heading"> for further information you need inform us </h3>
+  <textarea name="message" id="message" cols="80" rows="7" >
+    write a message 
+  </textarea>
+</div>
+
+<div class="button-container">
+  <button> register </button>
+</div>
+
+
+  </form>
+</div>
+
+
+</body>
+</html>

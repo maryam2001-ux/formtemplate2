@@ -1,0 +1,133 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Playwrite GB S", cursive;
+
+}
+
+::selection{
+  background-color:#17153B ;
+  color: #FEF9F2;
+}
+
+body {
+  background-color:#17153B ;
+}
+
+.container{
+  display: flex;
+  height: 150vh;
+  justify-content: center;
+  align-items: center;
+  background-color:#FFF5E4;
+  margin: 300px;
+  padding: 50px;
+  overflow: hidden;
+  border-radius: 300px 150px;
+  box-shadow: 1px 3px 5px 7px #000 ,
+  3px 5px 7px 9px #000 ,
+  5px 7px 9px 11px #000 ,
+  7px 9px 11px 13px #FFF5E4 ;
+}
+
+h2{
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6px;
+  border-bottom: solid 2px #000;
+  color: #17153B;
+}
+
+h3{
+  padding-bottom: 10px;
+  color: #17153B;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0 20px 150px;
+}
+
+.input-box{
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  transition: all 0.5s ease; 
+
+}
+
+.input-box:hover{
+  transform: scale(1.1);
+}
+
+
+
+.input-box label , .input-box2 label {
+font-size: 1.2rem;
+color: #17153B;
+font-weight: bold;
+}
+
+.employment label , .hobby label , .age label{
+  font-size: 1rem;
+  color: #17153B;
+  font-weight: bold;
+}
+
+.employment , .hobby , .age , .input-box2{
+  padding-bottom: 30px;
+}
+
+
+.button-container button {
+  width: 100%;
+  height: 6vh;
+  color: #FFF5E4;
+  background-color: #17153B;
+  font-weight: 800;
+  font-size: 1.3rem;
+  letter-spacing: 7px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transition: all 0.5s ease; 
+}
+
+.button-container button:hover {
+  color: #17153B;
+  background-color: #FFF5E4;
+  transform: scale(1.1);
+}
+
+input[type=text] , input[type=number] , input[type=date]{
+  border: none;
+  border-bottom: 1px solid grey;
+  height: 4vh;
+  background-color: #928fb9;
+  color: #FFF5E4;
+  border-radius: 10px;
+
+}
+
+::placeholder {
+  color: #FFF5E4;
+  padding: 10px;
+}
+
+input[type=text]:focus , input[type=number]:focus , input[type=date]:focus{
+  border: 3px solid #555;
+}
+
+
+select {
+  background-color: #17153B;
+  color: #FFF5E4;
+}
+
